@@ -1,0 +1,20 @@
+
+Data Sources and File Descriptions
+
+1. Data Sources  
+The dietary habit data were derived from the genome-wide association study (GWAS) conducted by Nicola Pirastu and colleagues, entitled “Using genetic variation to disentangle the complex relationship between food intake and health outcomes” (PMID: 35653391).
+
+Phenotypic data on aortic dissection and aortic aneurysm were obtained from the Finnish database, Release R11, made publicly available on June 24, 2024 (https://r11.finngen.fi/).
+
+Due to the extensive size of the datasets, downloading the raw data and performing ID conversion require relatively high internet bandwidth, substantial computational capacity, and considerable processing time. To improve accessibility and reproducibility, we provide the final curated datasets that were incorporated into our analyses. These datasets have undergone linkage disequilibrium pruning and harmonization, thereby ensuring compatibility and facilitating more efficient analyses.
+
+
+2. Data File Descriptions
+diet_AD_xth.csv – Harmonized dataset on dietary habits and aortic dissection
+fish_AD_xth.csv – Harmonized dataset on fish consumption and aortic dissection
+ofish_AD_xth.csv – Harmonized dataset on oily fish consumption and aortic dissection
+
+diet_AA_xth.csv – Harmonized dataset on dietary habits and aortic aneurysm
+Dfruit_AA_xth.csv – Dataset on dried fruit consumption and aortic aneurysm
+ofish_AA_xth.csv – Harmonized dataset on oily fish consumption and aortic aneurysm
+sala_AA_xth.csv – Harmonized dataset on salad consumption and aortic aneurysm
